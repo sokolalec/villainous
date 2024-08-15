@@ -1,0 +1,31 @@
+[
+    {
+        "winner": "Evil Queen",
+        "loser": "Hades",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "winner": "Hades",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "winner": "Pete",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete",
+        "comments": "I told him to not summon the pig :("
+    },
+    {
+        "winner": "Pete",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    }
+]

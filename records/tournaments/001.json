@@ -1,0 +1,58 @@
+[
+    {
+        "date": "07/04/2024",
+        "winner": "Gaston",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Captain Hook",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Lady Tremaine",
+        "loser": "Maleficent",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Horned King",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Maleficent",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Mother Gothel",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/04/2024",
+        "winner": "Prince John",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    }
+]

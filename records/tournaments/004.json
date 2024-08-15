@@ -1,0 +1,130 @@
+[
+    {
+        "date": "08/01/2024",
+        "winner": "Scar",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "08/01/2024",
+        "winner": "Madam Mim",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "08/02/2024",
+        "winner": "Gaston",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "08/02/2024",
+        "winner": "Shere Khan",
+        "loser": "Ratigan",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "08/02/2024",
+        "winner": "Ratigan",
+        "loser": "Lotso",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "08/03/2024",
+        "winner": "Hades",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "08/03/2024",
+        "winner": "Dr Facilier",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "08/03/2024",
+        "winner": "King Candy",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "Maleficent",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "Shere Khan",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "Horned King",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "Lady Tremaine",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "Evil Queen",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "08/10/2024",
+        "winner": "King Candy",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "08/11/2024",
+        "winner": "Prince John",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Prince John"
+    },
+    {
+        "date": "08/11/2024",
+        "winner": "Cruella de Vil",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    }
+]
