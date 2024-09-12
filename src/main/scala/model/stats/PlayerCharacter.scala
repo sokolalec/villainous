@@ -1,7 +1,6 @@
 package model.stats
 
-import model.Player
-import model.environment.Villain
+import model.environment.{Player, Villain}
 import model.event.EloChange
 
 case class PlayerCharacter(player: Player, villain: Villain) {

@@ -1,0 +1,23 @@
+[
+    {
+        "winner": "Ratigan",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "winner": "Scar",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "winner": "Oogie Boogie",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    }
+]

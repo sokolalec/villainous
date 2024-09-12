@@ -1,0 +1,30 @@
+[
+    {
+        "winner": "Mother Gothel",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "winner": "Pete",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "winner": "Pete",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "winner": "Pete",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    }
+]

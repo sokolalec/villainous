@@ -1,9 +1,9 @@
 package model.stats
 
-import model.Player
-import model.event.Game
+import model.environment.Player
+import model.game.DuelGame
 
-case class PlayerStats(player: Player, wins: List[Game], losses: List[Game]) {
+case class PlayerStats(player: Player, wins: List[DuelGame], losses: List[DuelGame]) {
 
   override def toString: String = {
     val winRate = wins.length.toDouble / (wins.length + losses.length) * 100

@@ -1,0 +1,16 @@
+[
+    {
+        "winner": "Queen of Hearts",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Prince John"
+    },
+    {
+        "winner": "Horned King",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    }
+]

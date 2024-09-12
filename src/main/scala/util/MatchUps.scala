@@ -19,7 +19,8 @@ object MatchUps {
    * If there is ever a Villain who double fates and cannot be double fated, this would still work.
    */
   private def getPossibleMatches(player1: Villain, player2Pool: Set[Villain]): Set[Villain] = {
-    val remaining = if (player1.hasDoubleFate) player2Pool.filterNot(_.impossibleWhenDoubleFated) else player2Pool
+    val notSameVillain = player2Pool.filterNot(_ == player1)
+    val remaining = if (player1.hasDoubleFate) notSameVillain.filterNot(_.impossibleWhenDoubleFated) else notSameVillain
     if (player1.impossibleWhenDoubleFated) remaining.filterNot(_.hasDoubleFate) else remaining
   }
 
