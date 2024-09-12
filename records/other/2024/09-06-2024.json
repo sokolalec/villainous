@@ -1,0 +1,44 @@
+[
+    {
+        "winner": "Oogie Boogie",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "winner": "Oogie Boogie",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "winner": "Shere Khan",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "winner": "Ratigan",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "winner": "Scar",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "winner": "Mother Gothel",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    }
+]

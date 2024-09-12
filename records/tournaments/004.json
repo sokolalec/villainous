@@ -126,5 +126,181 @@
         "winnerPlayer": "Alec",
         "loserPlayer": "Dennis",
         "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "08/21/2024",
+        "winner": "Jafar",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "08/21/2024",
+        "winner": "Captain Hook",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "08/21/2024",
+        "winner": "Lotso",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lotso"
+    },
+    {
+        "date": "08/21/2024",
+        "winner": "Ratigan",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "08/22/2024",
+        "winner": "Horned King",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "08/22/2024",
+        "winner": "Prince John",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Prince John"
+    },
+    {
+        "date": "08/22/2024",
+        "winner": "Queen of Hearts",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "08/22/2024",
+        "winner": "Lady Tremaine",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Madam Mim",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Madam Mim"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Cruella de Vil",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Oogie Boogie",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Yzma",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Captain Hook",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Dr Facilier",
+        "loser": "Syndrome",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "08/23/2024",
+        "winner": "Syndrome",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "08/24/2024",
+        "winner": "Syndrome",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "08/24/2024",
+        "winner": "Maleficent",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "08/24/2024",
+        "winner": "Pete",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "08/24/2024",
+        "winner": "Evil Queen",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "08/25/2024",
+        "winner": "Mother Gothel",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "08/28/2024",
+        "winner": "Ursula",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "08/28/2024",
+        "winner": "Lotso",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
     }
 ]

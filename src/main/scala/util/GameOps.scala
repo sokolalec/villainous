@@ -1,11 +1,12 @@
 package util
 
 import model.environment.Expansion.ownedExpansions
-import model.environment.{MatchUp, Villain}
+import model.environment.{MatchUp, Player, Villain}
 import model.environment.Villain.{Gaston, LadyTremaine, MadamMim}
-import model.event.{Game, PlayableGame}
-import model.{Player, event}
-import util.Filesystem.{readJsonFile, tournamentFiles}
+import model.event.{PlayableGame, Tournament}
+import model.event
+import model.game.DuelGame
+import util.Filesystem.{readJsonFile, tournamentFiles, tournamentGames}
 import util.MatchUps.getMatch
 import util.RNG.getRandom
 
@@ -14,24 +15,22 @@ import scala.util.Random
 
 object GameOps {
 
-  private val ownedVillains: Set[Villain] = ownedExpansions.flatMap(_.villains)
-
   def getFirstPlayer(player1: Player, player2: Player): Player = {
     if (getRandom().nextBoolean()) player1 else player2
   }
 
-  def getVillainsRemaining(tournament: String, player: Player): Set[Villain] = {
-    val tournamentFile = tournamentFiles.filter(_.getFileName.toString.startsWith(tournament)).head
-    val gamesThisTournament = readJsonFile(tournamentFile, Game.tournamentGameDecoder)
+  def getVillainsRemaining(tournament: Tournament, player: Player): Set[Villain] = {
+    val tournamentFile = tournamentFiles.filter(_.getFileName.toString.startsWith(tournament.version)).head
+    val gamesThisTournament = readJsonFile(tournamentFile, DuelGame.tournamentGameDecoder)
     val playersWins = gamesThisTournament.filter(_.winnerPlayer == player).map(_.winner)
-    ownedVillains.filterNot(playersWins.contains(_))
+    tournament.availableVillains -- playersWins
   }
 
   /**
    * @param tournament  The filename prefix containing the ongoing tournament records
    * @return            Some playable game, if one exists - if None, then the tournament is over!
    */
-  def getNextGame(tournament: String, player1: Player, player2: Player): Option[PlayableGame] = {
+  def getNextGame(tournament: Tournament, player1: Player, player2: Player): Option[PlayableGame] = {
     val player1Villains = getVillainsRemaining(tournament, player1)
     val player2Villains = getVillainsRemaining(tournament, player2)
 

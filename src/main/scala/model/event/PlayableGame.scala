@@ -1,7 +1,6 @@
 package model.event
 
-import model.Player
-import model.environment.Villain
+import model.environment.{Player, Villain}
 
 case class PlayableGame(player1: Player, villain1: Villain, player2: Player, villain2: Villain, firstPlayer: Player) {
 

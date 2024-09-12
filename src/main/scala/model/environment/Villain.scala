@@ -5,6 +5,7 @@ import enumeratum._
 sealed abstract class Villain(override val entryName: String) extends EnumEntry {
   val hasDoubleFate = false
   val impossibleWhenDoubleFated = false
+  override def toString: String = entryName
 }
 
 object Villain extends Enum[Villain] with CirceEnum[Villain] {
@@ -33,9 +34,7 @@ object Villain extends Enum[Villain] with CirceEnum[Villain] {
   case object Yzma extends Villain("Yzma")
 
   // Set 4
-  case object CruelladeVil extends Villain("Cruella de Vil") {
-    override val hasDoubleFate: Boolean = true
-  }
+  case object CruelladeVil extends Villain("Cruella de Vil")
   case object MotherGothel extends Villain("Mother Gothel") {
     override val impossibleWhenDoubleFated: Boolean = true
   }
@@ -55,7 +54,9 @@ object Villain extends Enum[Villain] with CirceEnum[Villain] {
   case object MadamMim extends Villain("Madam Mim") {
     override val hasDoubleFate: Boolean = true
   }
-  case object Syndrome extends Villain("Syndrome")
+  case object Syndrome extends Villain("Syndrome") {
+    override val impossibleWhenDoubleFated: Boolean = true
+  }
 
   // Set 7
   case object OogieBoogie extends Villain("Oogie Boogie")

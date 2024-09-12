@@ -1,0 +1,30 @@
+[
+    {
+        "winner": "Pete",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "winner": "Jafar",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "winner": "Dr Facilier",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "winner": "Prince John",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Prince John"
+    }
+]

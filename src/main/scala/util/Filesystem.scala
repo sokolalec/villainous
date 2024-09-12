@@ -2,13 +2,25 @@ package util
 
 import io.circe.Decoder
 import io.circe.parser.decode
-import model.event.Game
+import model.game.DuelGame.{tournamentGameDecoder, otherGameDecoder}
+import model.game.MultiplayerGame.multiplayerGameDecoder
+import model.game.{DuelGame, MultiplayerGame}
 import util.Datetime.epochOf
 
 import java.nio.file.{Files, Path, Paths}
 import scala.jdk.CollectionConverters.IteratorHasAsScala
 
 object Filesystem {
+
+  def readJsonFile[T](file: Path, decoder: Decoder[T]): Seq[T] = {
+    val content = new String(Files.readAllBytes(file))
+    decode[List[T]](content)(Decoder.decodeList(decoder)) match {
+      case Right(t) => t
+      case Left(error) =>
+        println(s"Failed to decode JSON from $file: $error")
+        Seq.empty
+    }
+  }
 
   private val thisScriptPath = "/Users/alecsokol/villainous"
 
@@ -19,9 +31,9 @@ object Filesystem {
     .filter(_.toString.endsWith(".json"))
     .filterNot(_.toString.contains("empty"))
 
-  val otherGames: Seq[Game] = otherFiles.flatMap(f => {
-    val otherGameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/")
-    val decoder = Game.otherGameDecoder(epochOf(otherGameDate))
+  val otherGames: Seq[DuelGame] = otherFiles.flatMap(f => {
+    val gameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/")
+    val decoder = otherGameDecoder(epochOf(gameDate))
     readJsonFile(f, decoder)
   })
 
@@ -32,18 +44,21 @@ object Filesystem {
     .filter(_.toString.endsWith(".json"))
     .filterNot(_.toString.contains("empty"))
 
-  val tournamentGames: List[Game] = tournamentFiles.flatMap(f => readJsonFile(f, Game.tournamentGameDecoder)).toList
+  val tournamentGames: List[DuelGame] = tournamentFiles.flatMap(f => readJsonFile(f, tournamentGameDecoder)).toList
 
-  val allGames: List[Game] = (otherGames ++ tournamentGames).toList
+  private val multiplayerDir = s"$thisScriptPath/records/multiplayer"
+  private val multiplayerPath = Paths.get(multiplayerDir)
+  val multiplayerFiles = Files
+    .walk(multiplayerPath).iterator().asScala.toSeq
+    .filter(_.toString.endsWith(".json"))
+    .filterNot(_.toString.contains("empty"))
 
-  def readJsonFile(file: Path, decoder: Decoder[Game]): Seq[Game] = {
-    val content = new String(Files.readAllBytes(file))
-    decode[List[Game]](content)(Decoder.decodeList(decoder)) match {
-      case Right(games) => games
-      case Left(error) =>
-        println(s"Failed to decode JSON from $file: $error")
-        Seq.empty
-    }
-  }
+  val multiplayerGames: Seq[MultiplayerGame] = multiplayerFiles.flatMap(f => {
+    val gameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/")
+    val decoder = multiplayerGameDecoder(epochOf(gameDate))
+    readJsonFile(f, decoder)
+  })
+
+  val allGames: List[DuelGame] = (otherGames ++ tournamentGames).toList
 
 }

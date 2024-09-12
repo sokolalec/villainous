@@ -1,9 +1,7 @@
-[
-    {
-        "winner": "",
-        "loser": "",
-        "winnerPlayer": "",
-        "loserPlayer": "",
-        "firstPlayer": ""
-    }
-]
+{
+    "winner": "",
+    "loser": "",
+    "winnerPlayer": "",
+    "loserPlayer": "",
+    "firstPlayer": ""
+}
