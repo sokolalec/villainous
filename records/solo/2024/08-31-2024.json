@@ -2,36 +2,31 @@
     {
         "winner": "Jafar",
         "loser": "Maleficent",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Maleficent"
     },
     {
         "winner": "Jafar",
         "loser": "Hades",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Jafar"
     },
     {
         "winner": "Jafar",
         "loser": "Evil Queen",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Evil Queen"
     },
     {
         "winner": "Jafar",
         "loser": "Maleficent",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Maleficent"
     },
     {
         "winner": "Jafar",
         "loser": "Gaston",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Jafar"
     }
 ]

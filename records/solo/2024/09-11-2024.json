@@ -2,15 +2,13 @@
     {
         "winner": "Madam Mim",
         "loser": "Jafar",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Jafar"
     },
     {
         "winner": "Captain Hook",
         "loser": "Madam Mim",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Captain Hook"
     }
 ]

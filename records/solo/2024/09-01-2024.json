@@ -2,15 +2,13 @@
     {
         "winner": "Jafar",
         "loser": "Syndrome",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Jafar"
     },
     {
         "winner": "Dr Facilier",
         "loser": "Captain Hook",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
+        "player": "Dennis",
         "firstPlayer": "Dr Facilier"
     }
 ]

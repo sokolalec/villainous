@@ -2,22 +2,19 @@
     {
         "winner": "Madam Mim",
         "loser": "Ratigan",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Ratigan"
     },
     {
         "winner": "Madam Mim",
         "loser": "Dr Facilier",
-        "winnerPlayer": "Alec",
-        "loserPlayer": "Alec",
+        "player": "Alec",
         "firstPlayer": "Dr Facilier"
     },
     {
         "winner": "Ratigan",
         "loser": "Scar",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
+        "player": "Dennis",
         "firstPlayer": "Scar"
     }
 ]

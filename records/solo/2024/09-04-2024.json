@@ -2,22 +2,19 @@
     {
         "winner": "Dr Facilier",
         "loser": "Evil Queen",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
+        "player": "Dennis",
         "firstPlayer": "Evil Queen"
     },
     {
         "winner": "Dr Facilier",
         "loser": "Hades",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
+        "player": "Dennis",
         "firstPlayer": "Dr Facilier"
     },
     {
         "winner": "Hades",
         "loser": "Evil Queen",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
+        "player": "Dennis",
         "firstPlayer": "Hades"
     }
 ]

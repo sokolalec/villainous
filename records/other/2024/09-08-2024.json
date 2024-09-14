@@ -33,19 +33,5 @@
         "winnerPlayer": "Dennis",
         "loserPlayer": "Alec",
         "firstPlayer": "Shere Khan"
-    },
-    {
-        "winner": "Yzma",
-        "loser": "Captain Hook",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
-        "firstPlayer": "Yzma"
-    },
-    {
-        "winner": "Yzma",
-        "loser": "Scar",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
-        "firstPlayer": "Yzma"
     }
 ]

@@ -19,12 +19,5 @@
         "winnerPlayer": "Dennis",
         "loserPlayer": "Alec",
         "firstPlayer": "Dr Facilier"
-    },
-    {
-        "winner": "Prince John",
-        "loser": "Dr Facilier",
-        "winnerPlayer": "Dennis",
-        "loserPlayer": "Dennis",
-        "firstPlayer": "Prince John"
     }
 ]
