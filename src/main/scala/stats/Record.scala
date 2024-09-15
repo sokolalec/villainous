@@ -1,6 +1,6 @@
-package model.stats
+package stats
 
-import model.environment.Villain
+import model.Villain
 import model.game.DuelGame
 
 case class Record(villain: Villain, wins: List[DuelGame], losses: List[DuelGame])

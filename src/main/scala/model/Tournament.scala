@@ -1,8 +1,7 @@
-package model.event
+package model
 
-import model.environment.Expansion.ownedExpansions
-import model.environment.Villain
-import model.environment.Villain.{Gaston, MadamMim, MotherGothel, Syndrome, Ursula}
+import model.Expansion.ownedExpansions
+import model.Villain.{Gaston, MadamMim, MotherGothel, Syndrome, Ursula}
 
 case class Tournament(version: String, availableVillains: Set[Villain])
 

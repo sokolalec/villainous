@@ -1,8 +1,6 @@
-package model.stats
+package elo
 
-import model.event.EloChange
-
-case class Elo(current: Double, audit: List[EloChange]) {
+case class Elo[T](current: Double, audit: List[EloChange[T]]) {
 
   override def toString: String = current.toString
 

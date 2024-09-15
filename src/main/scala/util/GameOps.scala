@@ -1,17 +1,11 @@
 package util
 
-import model.environment.Expansion.ownedExpansions
-import model.environment.{MatchUp, Player, Villain}
-import model.environment.Villain.{Gaston, LadyTremaine, MadamMim}
-import model.event.{PlayableGame, Tournament}
-import model.event
+import game.{MatchUp, PlayableGame}
+import io.Filesystem.{readJsonFile, tournamentFiles}
 import model.game.DuelGame
-import util.Filesystem.{readJsonFile, tournamentFiles, tournamentGames}
+import model.{Player, Tournament, Villain}
 import util.MatchUps.getMatch
 import util.RNG.getRandom
-
-import scala.annotation.tailrec
-import scala.util.Random
 
 object GameOps {
 
@@ -38,7 +32,7 @@ object GameOps {
       case None => None
       case Some(MatchUp(v1, v2)) =>
         val firstPlayer = getFirstPlayer(player1, player2)
-        Some(event.PlayableGame(player1, v1, player2, v2, firstPlayer))
+        Some(PlayableGame(player1, v1, player2, v2, firstPlayer))
     }
 
 

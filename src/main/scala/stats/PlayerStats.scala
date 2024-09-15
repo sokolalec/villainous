@@ -1,6 +1,6 @@
-package model.stats
+package stats
 
-import model.environment.Player
+import model.{Player, Villain}
 import model.game.DuelGame
 
 case class PlayerStats(player: Player, wins: List[DuelGame], losses: List[DuelGame]) {
@@ -38,6 +38,34 @@ case class PlayerStats(player: Player, wins: List[DuelGame], losses: List[DuelGa
        |  Total Losses: ${losses.length - firstLosses}
        |  Win Rate: $secondFormattedPercentage
        |""".stripMargin
+  }
+
+}
+
+object PlayerStats {
+
+  def getPlayCounts(games: Seq[DuelGame], player: Player): Map[Villain, Int] = {
+    games.flatMap { game =>
+      val winnerVillainCount = if (game.winnerPlayer == player) Some(game.winner) else None
+      val loserVillainCount = if (game.loserPlayer == player) Some(game.loser) else None
+      List(winnerVillainCount, loserVillainCount).flatten
+    }
+    .groupBy(identity)
+    .view.mapValues(_.size)
+    .toMap
+  }
+
+  def showPlayCounts(games: Seq[DuelGame], player: Player): Map[Villain, Int] = {
+    val counts = getPlayCounts(games, player)
+
+    println(s"$player games:")
+    val villainCount: Seq[(Villain, Int)] = counts.toSeq.sortBy(-_._2)
+    villainCount.foreach { case (villain, count) =>
+      println(s"  $villain: $count")
+    }
+    println("")
+
+    counts
   }
 
 }

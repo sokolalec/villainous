@@ -1,6 +1,6 @@
-package model.environment
+package model
 
-import model.environment.Villain._
+import model.Villain._
 
 trait Expansion {
   val villains: Set[Villain]
@@ -50,4 +50,5 @@ object Expansion {
       FilledwithFright,
       SugarandSpite
     )
+
 }

@@ -1,4 +1,4 @@
-package model.environment
+package model
 
 import io.circe.{Decoder, HCursor}
 

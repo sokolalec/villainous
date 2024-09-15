@@ -2,7 +2,7 @@ package model.game
 
 import io.circe.Decoder.Result
 import io.circe.{Decoder, HCursor}
-import model.environment.{Player, Villain}
+import model.{Player, Villain}
 import util.Datetime.epochOf
 
 case class DuelGame(winner: Villain,

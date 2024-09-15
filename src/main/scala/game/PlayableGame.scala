@@ -1,6 +1,6 @@
-package model.event
+package game
 
-import model.environment.{Player, Villain}
+import model.{Player, Villain}
 
 case class PlayableGame(player1: Player, villain1: Villain, player2: Player, villain2: Villain, firstPlayer: Player) {
 
@@ -23,8 +23,8 @@ case class PlayableGame(player1: Player, villain1: Villain, player2: Player, vil
     val firstPlayerColumn = centerString(firstPlayerHeader, column3Max)
 
     // Row 2
-    val villain1Column = centerString(villain1.entryName, column1Max)
-    val villain2Column = centerString(villain2.entryName, column2Max)
+    val villain1Column = centerString(villain1.toString, column1Max)
+    val villain2Column = centerString(villain2.toString, column2Max)
     val firstPlayerNameColumn = centerString(firstPlayer.name, column3Max)
 
     val header = "#" * (3 + player1Column.length + 5 + player2Column.length + 5 + firstPlayerColumn.length + 3)
