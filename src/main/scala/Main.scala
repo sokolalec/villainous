@@ -17,7 +17,6 @@ object Main {
     println(getPlayerStats(games, michael).detailedStats)
   }
 
-  //    val getNextGame = args.contains("--getNextGame")
   def main(args: Array[String]): Unit = {
     println("")
 
@@ -28,7 +27,7 @@ object Main {
     generateRecordStats(games, onlyPlayer(alec)).foreach(println)
 //    generateRecordStats(games, allPlayers).foreach(println)
 
-    showAllPlayerStats(nonSoloGames)
+//    showAllPlayerStats(nonSoloGames)
 
     val tournament5 = Tournament("005", ownedVillains -- bannedVillains)
     println(getNextGame(tournament5, alec, dennis).get)
@@ -43,11 +42,7 @@ object Main {
     println(s"${eloHistoryTarget.player}'s ${eloHistoryTarget.villain} Rating Changes:")
     eloRatings(eloHistoryTarget).showEloHistory()
 
-    // calculate win rate only using the first time a villain was played
-
-    // TODO: make the playercharacter/villain elo types parameterized somehow
-    // TODO: clean up stats/record classes, they probably aren't needed? or come up with some useful model then that is
-    // TODO: make Game trait, make SoloGame separate (make new files for records)
+    // TODO: clean up stats/record classes
   }
 
 }
