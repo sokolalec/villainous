@@ -1,0 +1,58 @@
+[
+    {
+        "winner": "Shere Khan",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "winner": "Lotso",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "winner": "Dr Facilier",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "winner": "Maleficent",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "winner": "Mother Gothel",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "winner": "Oogie Boogie",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "winner": "Pete",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "winner": "Madam Mim",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    }
+]

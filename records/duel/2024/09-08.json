@@ -1,0 +1,37 @@
+[
+    {
+        "winner": "Dr Facilier",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "winner": "Pete",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "winner": "Captain Hook",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "winner": "King Candy",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "winner": "Shere Khan",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Shere Khan"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "winner": "Madam Mim",
+        "loser": "Ratigan",
+        "player": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "winner": "Madam Mim",
+        "loser": "Dr Facilier",
+        "player": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "winner": "Ratigan",
+        "loser": "Scar",
+        "player": "Dennis",
+        "firstPlayer": "Scar"
+    }
+]

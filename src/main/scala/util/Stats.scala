@@ -1,8 +1,8 @@
 package util
 
-import model.environment.{Player, Villain}
+import model.{Player, Villain}
 import model.game.DuelGame
-import model.stats.{PlayerStats, Record, RecordStats}
+import stats.{PlayerStats, Record, RecordStats}
 
 object Stats {
 
@@ -15,10 +15,7 @@ object Stats {
     PlayerStats(player, getPlayerWins(multiPlayerGames, player), getPlayerLosses(multiPlayerGames, player))
   }
 
-  def getVillainGames(games: List[DuelGame], villain: Villain): List[DuelGame] =
-    games.filter(g => g.winner == villain || g.loser == villain)
-
-  def higherWinRate(a: RecordStats, b: RecordStats): Boolean = {
+  private def higherWinRate(a: RecordStats, b: RecordStats): Boolean = {
     val aRate = a.wins.toDouble / (a.wins + a.losses)
     val bRate = b.wins.toDouble / (b.wins + b.losses)
 

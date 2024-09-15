@@ -1,0 +1,32 @@
+[
+    {
+        "winner": "Jafar",
+        "loser": "Maleficent",
+        "player": "Alec",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "winner": "Jafar",
+        "loser": "Hades",
+        "player": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "winner": "Jafar",
+        "loser": "Evil Queen",
+        "player": "Alec",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "winner": "Jafar",
+        "loser": "Maleficent",
+        "player": "Alec",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "winner": "Jafar",
+        "loser": "Gaston",
+        "player": "Alec",
+        "firstPlayer": "Jafar"
+    }
+]

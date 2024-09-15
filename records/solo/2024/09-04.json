@@ -1,0 +1,20 @@
+[
+    {
+        "winner": "Dr Facilier",
+        "loser": "Evil Queen",
+        "player": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "winner": "Dr Facilier",
+        "loser": "Hades",
+        "player": "Dennis",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "winner": "Hades",
+        "loser": "Evil Queen",
+        "player": "Dennis",
+        "firstPlayer": "Hades"
+    }
+]

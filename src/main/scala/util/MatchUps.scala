@@ -1,6 +1,7 @@
 package util
 
-import model.environment.{MatchUp, Villain}
+import game.MatchUp
+import model.Villain
 import util.RNG.getRandom
 
 import scala.annotation.tailrec
@@ -41,7 +42,7 @@ object MatchUps {
         val player2Villain = getRandomVillain(availableVillains)
 
         player2Villain match {
-          case Some(v2) => Some(MatchUp(v1, v2))
+          case Some(v2) => Some(game.MatchUp(v1, v2))
           case None => getMatch(player1Pool.filterNot(_ == v1), player2Pool)
         }
     }
