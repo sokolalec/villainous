@@ -1,4 +1,4 @@
-package util
+package stats
 
 import elo.{Elo, EloCalculable, EloChange}
 import model.game.DuelGame

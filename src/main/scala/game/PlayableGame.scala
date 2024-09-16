@@ -5,8 +5,9 @@ import model.{Player, Villain}
 case class PlayableGame(player1: Player, villain1: Villain, player2: Player, villain2: Villain, firstPlayer: Player) {
 
   private def centerString(s: String, size: Int): String = {
-    val padding = (size - s.length) / 2
-    val extraPadding = if ((size - s.length) % 2 != 0) 1 else 0
+    val visibleLength = s.replaceAll("\u001b\\[[;\\d]*m", "").length
+    val padding = (size - visibleLength) / 2
+    val extraPadding = if ((size - visibleLength) % 2 != 0) 1 else 0
     (" " * padding) + s + (" " * (padding + extraPadding))
   }
 
@@ -30,11 +31,14 @@ case class PlayableGame(player1: Player, villain1: Villain, player2: Player, vil
     val header = "#" * (3 + player1Column.length + 5 + player2Column.length + 5 + firstPlayerColumn.length + 3)
 
     s"""
-       |$header
-       |#  $player1Column  #  $player2Column  #  $firstPlayerColumn  #
-       |#  $villain1Column  #  $villain2Column  #  $firstPlayerNameColumn  #
-       |$header
-       |""".stripMargin
+       |
+       |      $header
+       |      #  $player1Column  #  $player2Column  #  $firstPlayerColumn  #
+       |      #  $villain1Column  #  $villain2Column  #  $firstPlayerNameColumn  #
+       |      $header
+       |
+       |
+       | """.stripMargin
   }
 
 }
