@@ -36,7 +36,7 @@ object Filesystem {
     val gameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/") + "/" + year
     val decoder = otherGameDecoder(epochOf(gameDate))
     readJsonFile(f, decoder)
-  })
+  }).sortBy(_.date)
 
   private val soloDir = s"$thisScriptPath/records/solo"
   private val soloPath = Paths.get(soloDir)
@@ -44,12 +44,12 @@ object Filesystem {
     .walk(soloPath).iterator().asScala.toSeq
     .filter(_.toString.endsWith(".json"))
     .filterNot(_.toString.contains("empty"))
-  val soloGames: Seq[DuelGame] = soloFiles.flatMap(f => {
+  val soloGames: List[DuelGame] = soloFiles.flatMap(f => {
     val year = f.getParent.getFileName.toString
     val gameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/") + "/" + year
     val decoder = soloGameDecoder(epochOf(gameDate))
     readJsonFile(f, decoder)
-  }).map(_.toDuelGame())
+  }).map(_.toDuelGame()).sortBy(_.date).toList
 
   private val tournamentDir = s"$thisScriptPath/records/tournaments"
   private val tournamentPath = Paths.get(tournamentDir)
@@ -58,7 +58,10 @@ object Filesystem {
     .filter(_.toString.endsWith(".json"))
     .filterNot(_.toString.contains("empty"))
 
-  val tournamentGames: List[DuelGame] = tournamentFiles.flatMap(f => readJsonFile(f, tournamentGameDecoder)).toList
+  val tournamentGames: List[DuelGame] = tournamentFiles
+    .flatMap(f => readJsonFile(f, tournamentGameDecoder))
+    .sortBy(_.date)
+    .toList
 
   private val multiplayerDir = s"$thisScriptPath/records/multiplayer"
   private val multiplayerPath = Paths.get(multiplayerDir)
@@ -72,9 +75,10 @@ object Filesystem {
     val gameDate = f.getFileName.toString.stripSuffix(".json").replace("-", "/") + "/" + year
     val decoder = multiplayerGameDecoder(epochOf(gameDate))
     readJsonFile(f, decoder)
-  })
+  }).sortBy(_.date)
 
-  val nonSoloGames: List[DuelGame] = (otherGames ++ tournamentGames).toList
-  val allGames: List[DuelGame] = nonSoloGames ++ soloGames
+  val nonSoloGames: List[DuelGame] = (otherGames ++ tournamentGames).sortBy(_.date).toList
+  val allGames: List[DuelGame] = (nonSoloGames ++ soloGames).sortBy(_.date)
+  val legalGames: List[DuelGame] = allGames.filter(_.isLegal)
 
 }

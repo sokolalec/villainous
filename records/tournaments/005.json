@@ -1,3 +1,122 @@
 [
-
+    {
+        "date": "09/18/2024",
+        "winner": "Jafar",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "09/18/2024",
+        "winner": "Pete",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "09/19/2024",
+        "winner": "Prince John",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Prince John"
+    },
+    {
+        "date": "09/19/2024",
+        "winner": "King Candy",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "09/19/2024",
+        "winner": "Ratigan",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "09/20/2024",
+        "winner": "Maleficent",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "09/20/2024",
+        "winner": "Evil Queen",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "09/20/2024",
+        "winner": "Madam Mim",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Madam Mim"
+    },
+    {
+        "date": "09/20/2024",
+        "winner": "Dr Facilier",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Cruella de Vil",
+        "loser": "Hades",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Lady Tremaine",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Syndrome",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Scar",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Captain Hook",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lotso"
+    },
+    {
+        "date": "09/21/2024",
+        "winner": "Mother Gothel",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    }
 ]

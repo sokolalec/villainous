@@ -1,0 +1,23 @@
+[
+    {
+        "winner": "Lady Tremaine",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "winner": "Queen of Hearts",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "winner": "Pete",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    }
+]

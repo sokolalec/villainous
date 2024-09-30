@@ -1,14 +1,14 @@
 import elo.{PlayerCharacterElo, VillainElo}
+import io.Filesystem.{allGames, legalGames, nonSoloGames, soloGames}
 import model.Player._
 import model.Villain._
-import model.Tournament._
 import model.game.DuelGame
+import model.{Player, PlayerVillain, Villain}
 import stats.EloOps.{calculateElo, displaySortedElo}
-import io.Filesystem.{allGames, nonSoloGames}
-import model.{Player, PlayerVillain, Tournament, Villain}
-import stats.PlayerRecord.showPlayCounts
-import util.GameOps.getNextGame
+import stats.PlayerRecord.getPlayCounts
 import stats.Stats.{generateRecords, getPlayerStats, showRecords}
+import tournaments._
+import util.GameOps.getNextGame
 
 object Main {
 
@@ -30,19 +30,24 @@ object Main {
   def main(args: Array[String]): Unit = {
     println("")
 
-    println("Tournament 1:")
-    showPlayerStats(tournament1, List(alec, dennis))
-    println("Tournament 2:")
-    showPlayerStats(tournament2, List(alec, dennis))
-    println("Tournament 3:")
-    showPlayerStats(tournament3, List(alec, dennis))
-    println("Tournament 4:")
-    showPlayerStats(tournament4, List(alec, dennis))
-    println("\nAll Games")
+//    println("Tournament 1:")
+//    showPlayerStats(tournament1, List(alec, dennis))
+//    println("Tournament 2:")
+//    showPlayerStats(tournament2, List(alec, dennis))
+//    println("Tournament 3:")
+//    showPlayerStats(tournament3, List(alec, dennis))
+//    println("Tournament 4:")
+//    showPlayerStats(tournament4, List(alec, dennis))
+//    println("Tournament 5:")
+//    showPlayerStats(tournament5, List(alec, dennis))
+    println("\nAll Games:")
     showPlayerStats(nonSoloGames, List(alec, dennis, michael))
+    println("\nSolo Games:")
+    showPlayerStats(soloGames, List(alec, dennis))
 
+//    val games = soloGames
 //    val games = tournament4
-    val games = allGames.sortBy(_.date)
+    val games = legalGames
 
     showPlayerRecords(games, Some(alec))
     showPlayerRecords(games, Some(dennis))
@@ -60,8 +65,15 @@ object Main {
 
 //    showPlayCounts(games, alec)
 
-    val tournament5 = Tournament("005", ownedVillains -- bannedVillains)
-    println(getNextGame(tournament5, alec, dennis).get)
+    //      ############################################
+    //      #    Alec     #  Dennis   #  First Player  #
+    //      #  Madam Mim  #  Ratigan  #   Madam Mim    #
+    //      ############################################
+
+    println(Tournament6.score())
+    println(Tournament6.generateNextGame(alec, dennis).get)
+
+    println("")
   }
 
 }

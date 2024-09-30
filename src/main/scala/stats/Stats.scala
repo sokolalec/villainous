@@ -9,9 +9,8 @@ object Stats {
    * Excludes SoloGames, because that wouldn't make sense.
    */
   def getPlayerStats(games: List[DuelGame], player: Player): PlayerRecord = {
-    val multiPlayerGames = games.filterNot(g => g.loserPlayer == g.winnerPlayer)
-    val wins = multiPlayerGames.filter(_.winnerPlayer == player)
-    val losses = multiPlayerGames.filter(_.loserPlayer == player)
+    val wins = games.filter(_.winnerPlayer == player)
+    val losses = games.filter(_.loserPlayer == player)
     PlayerRecord(player, Record(wins, losses))
   }
 

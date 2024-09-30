@@ -1,0 +1,15 @@
+[
+    {
+        "winner": "Lotso",
+        "winnerPlayer": "Dennis",
+        "losers": {
+            "Alec": "Jafar",
+            "Michael": "Dr Facilier"
+        },
+        "playerOrder": [
+            "Michael",
+            "Alec",
+            "Dennis"
+        ]
+    }
+]

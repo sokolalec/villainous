@@ -12,8 +12,10 @@ case class DuelGame(winner: Villain,
                     firstPlayer: Villain,
                     date: Long,
                     tournament: Boolean) {
+  val isLegal: Boolean = winner.playedCorrectSince < date && loser.playedCorrectSince < date
+
   override def toString: String =
-    s"Game(w: $winner, l: $loser, wp: $winnerPlayer, lp: $loserPlayer, fp: $firstPlayer)"
+    s"$date Game(w: $winner, l: $loser, wp: $winnerPlayer, lp: $loserPlayer, fp: $firstPlayer)"
 }
 
 object DuelGame {
