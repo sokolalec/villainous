@@ -1,6 +1,6 @@
 package elo
 
-import model.game.DuelGame
+import game.DuelGame
 
 trait EloCalculable[T] {
 

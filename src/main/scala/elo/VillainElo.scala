@@ -1,7 +1,7 @@
 package elo
 
+import game.DuelGame
 import model.Villain
-import model.game.DuelGame
 
 object VillainElo extends EloCalculable[Villain] {
 

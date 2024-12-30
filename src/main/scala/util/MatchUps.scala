@@ -8,11 +8,11 @@ import scala.annotation.tailrec
 
 object MatchUps {
 
-  private def getRandomVillain(villains: Set[Villain]): Option[Villain] = {
-    if (villains.isEmpty) None
+  def getRandomT[T](items: Set[T]): Option[T] = {
+    if (items.isEmpty) None
     else {
-      val r = getRandom().nextInt(villains.size)
-      villains.view.slice(r, r + 1).headOption
+      val r = getRandom().nextInt(items.size)
+      items.view.slice(r, r + 1).headOption
     }
   }
 
@@ -35,11 +35,11 @@ object MatchUps {
    */
   @tailrec
   def getMatch(player1Pool: Set[Villain], player2Pool: Set[Villain]): Option[MatchUp] = {
-    getRandomVillain(player1Pool) match {
+    getRandomT(player1Pool) match {
       case None => None
       case Some(v1) =>
         val availableVillains = getPossibleMatches(v1, player2Pool)
-        val player2Villain = getRandomVillain(availableVillains)
+        val player2Villain = getRandomT(availableVillains)
 
         player2Villain match {
           case Some(v2) => Some(game.MatchUp(v1, v2))

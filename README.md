@@ -47,6 +47,7 @@ Tournament `002`:
 - When a player wins with a Villain, they move to the next Villain in the line, moving towards each other
   - If one player would move onto the same Villain the other player just lost with, they skip over that Villain, but must go back and win with that Villain immediately after the other player wins
 - The first player to reach the opposite side of the line, wins
+- If both players have the same Villain remaining, it is a draw
 - The player going first in each individual match is decided by coin flip
 
 Tournament `003`:
@@ -60,6 +61,19 @@ Tournament `004`:
 - ownedExpansions = (Original, WickedToTheCore, EvilComesPrepared, PerfectlyWretched, DespicablePlots, BiggerAndBadder, FilledwithFright, SugarandSpite)
 - Same basic rules as tournament `003`
 - Games were generated pseudo-randomly (see below) using the code in this repo
+
+Tournament `005`:
+- ownedExpansions = (Original, WickedToTheCore, EvilComesPrepared, PerfectlyWretched, DespicablePlots, BiggerAndBadder, FilledwithFright, SugarandSpite)
+- First person to 12 wins, wins the tournament
+- When a Villain wins a game, it is out of the tournament and cannot be played again
+- One person picks a matchup of two villains; the other picks which one they want to play in that matchup
+- A coin flip decides who dictates the matchup (the winner of the coin flip can make the other player choose the matchup if they want)
+
+Tournament `006`:
+- ownedExpansions = (Original, WickedToTheCore, EvilComesPrepared, PerfectlyWretched, DespicablePlots, BiggerAndBadder, FilledwithFright, SugarandSpite)
+- First person to 25 wins, wins the tournament
+- After a Villain is played, it can no longer be played again until each Villain has been played at least that number of times (i.e. random round robin)
+- Games are randomly decided using the Villains remaining for each player
 
 ## Game Generation
 
