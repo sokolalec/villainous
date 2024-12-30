@@ -1,0 +1,14 @@
+{
+    "date": "12/03/2024",
+    "winner": "Ratigan",
+    "winnerPlayer": "Michael",
+    "losers": {
+        "Alec": "Jafar",
+        "Dennis": "Ursula"
+    },
+    "playerOrder": [
+        "Alec",
+        "Dennis",
+        "Michael"
+    ]
+}

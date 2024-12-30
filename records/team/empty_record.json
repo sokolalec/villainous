@@ -1,0 +1,30 @@
+{
+    "date": "12/08/2024",
+    "winner": "Prince John",
+    "winnerTeam": [
+        {
+            "player": "Alec",
+            "villain": "Ursula"
+        },
+        {
+            "player": "Dennis",
+            "villain": "Prince John"
+        }
+    ],
+    "loserTeam": [
+        {
+            "player": "Madison",
+            "villain": "Ratigan"
+        },
+        {
+            "player": "Michael",
+            "villain": "Dr Facilier"
+        }
+    ],
+    "villainOrder": [
+        "Ursula",
+        "Ratigan",
+        "Prince John",
+        "Dr Facilier"
+    ]
+}

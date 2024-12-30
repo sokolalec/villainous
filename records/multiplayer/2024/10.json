@@ -1,0 +1,44 @@
+[
+    {
+        "date": "10/03/2024",
+        "winner": "Pete",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Yzma",
+            "Michael": "Maleficent"
+        },
+        "playerOrder": [
+            "Michael",
+            "Alec",
+            "Dennis"
+        ]
+    },
+    {
+        "date": "10/20/2024",
+        "winner": "Ratigan",
+        "winnerPlayer": "Michael",
+        "losers": {
+            "Dennis": "Lady Tremaine",
+            "Alec": "Ursula"
+        },
+        "playerOrder": [
+            "Dennis",
+            "Michael",
+            "Alec"
+        ]
+    },
+    {
+        "date": "10/20/2024",
+        "winner": "Ursula",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Lady Tremaine",
+            "Michael": "Ratigan"
+        },
+        "playerOrder": [
+            "Dennis",
+            "Michael",
+            "Alec"
+        ]
+    }
+]

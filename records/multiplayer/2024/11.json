@@ -1,0 +1,30 @@
+[
+    {
+        "date": "11/02/2024",
+        "winner": "Dr Facilier",
+        "winnerPlayer": "Dennis",
+        "losers": {
+            "Alec": "Evil Queen",
+            "Corey": "Prince John"
+        },
+        "playerOrder": [
+            "Alec",
+            "Dennis",
+            "Corey"
+        ]
+    },
+    {
+        "date": "11/02/2024",
+        "winner": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Ratigan",
+            "Corey": "Prince John"
+        },
+        "playerOrder": [
+            "Alec",
+            "Dennis",
+            "Corey"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "date": "10/19/2024",
+        "winner": "Ratigan",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "10/19/2024",
+        "winner": "Ratigan",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "10/20/2024",
+        "winner": "Ratigan",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "10/23/2024",
+        "winner": "Ratigan",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    }
+]
