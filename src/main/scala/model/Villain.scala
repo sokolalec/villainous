@@ -10,6 +10,7 @@ sealed abstract class Villain(override val entryName: String, color: String) ext
   val playedCorrectSince = 0L
   val adjustments: Seq[String] = Seq.empty
   val houseRules: Seq[String] = Seq.empty
+  val length: Int = entryName.length
 
   override def toString: String = Color.color(entryName, color)
 }
@@ -17,6 +18,7 @@ sealed abstract class Villain(override val entryName: String, color: String) ext
 object Villain extends Enum[Villain] with CirceEnum[Villain] {
   val values: IndexedSeq[Villain] = findValues
 
+  // TODO: add to individual adjustments
   val globalAdjustments: Seq[String] = List(
     "Heroes at 0 strength can be vanquished using no allies whatsoever", // 11-15-2024
     "Any type of deck is only re-shuffled from the discard when a card must be drawn from it, not when it becomes empty" // 11-15-2024
@@ -96,7 +98,9 @@ object Villain extends Enum[Villain] with CirceEnum[Villain] {
       "Mother Gothel must pay 1 trust to play Now I'm the Bad Guy"
     )
   }
-  case object Pete extends Villain("Pete", white)
+  case object Pete extends Villain("Pete", white) {
+    override val impossibleWhenDoubleFated: Boolean = true
+  }
 
   // Set 5
   case object Gaston extends Villain("Gaston", yellow) {
@@ -156,7 +160,6 @@ object Villain extends Enum[Villain] with CirceEnum[Villain] {
 
   // Set 7
   case object OogieBoogie extends Villain("Oogie Boogie", green) {
-    override val impossibleWhenDoubleFated: Boolean = true
     override val playedCorrectSince: Long = 1731628800L // 11-15-2024
     override val adjustments: Seq[String] = List(
       "Sally cannot be played to Oogie Boogie's current location",
@@ -185,4 +188,13 @@ object Villain extends Enum[Villain] with CirceEnum[Villain] {
       "Bagheera must move either all or none of the heroes at his location when played"
     )
   }
+
+  // Set 9
+  case object Tamatoa extends Villain("Tamatoa", purple) {
+    override val playedCorrectSince: Long = 1753552801L // 07-27-2025
+    override val adjustments: Seq[String] = List(
+      "Crustacean with the Power of Creation does not force you to shuffle your fate discard pile into your deck"
+    )
+  }
+  case object DavyJones extends Villain("Davy Jones", green)
 }

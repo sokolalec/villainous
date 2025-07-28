@@ -1,0 +1,26 @@
+[
+    {
+        "date": "05/11/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/16/2025",
+        "winner": "Prince John",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Michael",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "05/16/2025",
+        "winner": "Maleficent",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Michael",
+        "firstPlayer": "Oogie Boogie"
+    }
+]

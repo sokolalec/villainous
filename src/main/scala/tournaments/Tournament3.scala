@@ -1,5 +1,6 @@
 package tournaments
-import game.{MatchUp, PlayableDuel}
+import game.MatchUp
+import io.PlayableDuel
 import model.Expansion._
 import model.{Player, Villain}
 import util.GameOps.getFirstPlayer

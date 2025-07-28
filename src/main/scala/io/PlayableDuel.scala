@@ -1,4 +1,4 @@
-package game
+package io
 
 import model.{Player, Villain}
 

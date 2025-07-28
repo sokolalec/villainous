@@ -278,5 +278,85 @@
         "winnerPlayer": "Alec",
         "loserPlayer": "Dennis",
         "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "01/02/2025",
+        "winner": "Maleficent",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "01/02/2025",
+        "winner": "Shere Khan",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "01/02/2025",
+        "winner": "Dr Facilier",
+        "loser": "King Candy",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Shere Khan",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Dr Facilier",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Shere Khan",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Dr Facilier",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Shere Khan",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "01/03/2025",
+        "winner": "Shere Khan",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
     }
 ]

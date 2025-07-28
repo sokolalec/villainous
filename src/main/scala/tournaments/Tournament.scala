@@ -1,8 +1,9 @@
 package tournaments
 
 import game.DuelGame.tournamentGameDecoder
-import game.{DuelGame, PlayableDuel}
+import game.DuelGame
 import io.Filesystem.{getGames, tournamentDir}
+import io.PlayableDuel
 import model.{Player, Villain}
 
 trait Tournament {

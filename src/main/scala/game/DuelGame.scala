@@ -11,7 +11,7 @@ case class DuelGame(winner: Villain,
                     loserPlayer: Player,
                     firstPlayer: Villain,
                     date: Long,
-                    tournament: Boolean) {
+                    tournament: Boolean) extends Game[Villain, Villain] {
   val isLegal: Boolean = winner.playedCorrectSince < date && loser.playedCorrectSince < date
 
   override def toString: String =

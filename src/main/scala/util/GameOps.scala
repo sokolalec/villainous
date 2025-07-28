@@ -1,6 +1,7 @@
 package util
 
-import game.{MatchUp, PlayableDuel, PlayableGame}
+import game.MatchUp
+import io.{PlayableDuel, PlayableGame}
 import model.Expansion.ownedExpansions
 import model.Villain.{Gaston, Hades}
 import model.{Player, Villain}

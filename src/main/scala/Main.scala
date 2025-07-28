@@ -1,14 +1,11 @@
-import elo.{Elo, PlayerVillainElo, VillainElo}
-import game.{DuelGame, PlayableGame}
-import io.Filesystem.{allGames, legalGames, nonSoloGames, soloGames}
+import elo.{Elo, EloCalculable, PlayerVillainElo, VillainElo}
+import game.DuelGame
+import io.Filesystem.{allGames, legalGames}
 import model.Player._
-import model.Villain._
 import model.{Player, PlayerVillain, Villain}
 import stats.EloOps.{calculateElo, displaySortedElo}
-import stats.PlayerRecord.numGamesGoingFirst
-import stats.Stats.{generateRecords, getPlayerStats, showRecords}
+import stats.Stats.{generateRecords, getPlayerStats, showRecords, showWinRates}
 import tournaments._
-import util.GameOps.proposeMultiDuelGame
 
 object Main {
 
@@ -18,7 +15,7 @@ object Main {
     println(getPlayerStats(games, p).detailedStats)
   }
 
-  def showPlayerRecords(games: List[DuelGame], player: Option[Player]): Unit = {
+  def showPlayerRecords(games: Seq[DuelGame], player: Option[Player]): Unit = {
     def filterPlayer: Player => Boolean = (p: Player) => player.forall(_ == p)
     val playerRecords = generateRecords(games, filterPlayer)
 
@@ -45,43 +42,84 @@ object Main {
     }
   }
 
-  def main(args: Array[String]): Unit = {
-    println("\n\nAll Games:")
-    showPlayerStats(nonSoloGames, List(alec, dennis, michael))
-    println("\nSolo Games:")
-    showPlayerStats(soloGames, List(alec, dennis))
+  def allTimeScore(games: Seq[DuelGame], player: Player): Int = {
+    games.filter(g => g.winnerPlayer == player).map(g => {
+      val b1 = Tournament13.brackets.indexWhere(_.contains(g.winner))
+      val b2 = Tournament13.brackets.indexWhere(_.contains(g.loser))
+      if (b1 < b2) 1 else Math.abs(b1 - b2) + 1
+    }).sum
+  }
 
-    val games = legalGames // legalGames, soloGames, etc
+  def displayEloDifference(elo: Map[PlayerVillain, Elo[PlayerVillain]], minGames: Int = 0): Unit = {
+    val villainDiff = Villain.values.map(v => {
+      val alecPv = PlayerVillain(alec, v)
+      val dennisPv = PlayerVillain(dennis, v)
+
+      val alecDefault = PlayerVillainElo.defaultElo(alecPv)
+      val dennisDefault = PlayerVillainElo.defaultElo(dennisPv)
+      (v, elo.getOrElse(alecPv, alecDefault).current - elo.getOrElse(dennisPv, dennisDefault).current)
+    })
+    // Math.abs
+
+    val diffSorted = villainDiff.sortBy(_._2).reverse
+
+    println(f"${"Player"}%-19s ${"ELO Difference"}%-10s")
+    println("=" * 34)
+    diffSorted.foreach { case (villain, diff) =>
+        val visibleLength = villain.toString.replaceAll("\u001b\\[[;\\d]*m", "").length
+        val padding = 27 - visibleLength
+        val paddedPlayer = villain.toString + " " * padding
+        val formattedRating = f"${diff}%.2f" // 2 decimal places
+        println(s"$paddedPlayer$formattedRating")
+      }
+    println("")
+  }
+
+  def main(args: Array[String]): Unit = {
+    val games = legalGames // Tournament13.games().toList legalGames soloGames allGames etc
+
+//    showPlayerStats(games, List(alec, dennis, michael))
 
     showPlayerRecords(games, Some(alec))
     showPlayerRecords(games, Some(dennis))
     showPlayerRecords(games, None)
 
+    val playerGrouping: PlayerVillain => String = pv => pv.player.toString
+
+    val playerEloRatings: Map[PlayerVillain, Elo[PlayerVillain]] = calculateElo[PlayerVillain](games, PlayerVillainElo)
+//    displayEloDifference(playerEloRatings)
+    displaySortedElo[PlayerVillain](playerEloRatings, minGames = 2, grouping = Some(playerGrouping))
+    println("")
+
     val villainEloRatings = calculateElo[Villain](games, VillainElo)
-    displaySortedElo(villainEloRatings)
-
-    val playerEloRatings = calculateElo[PlayerVillain](games, PlayerVillainElo)
-    displaySortedElo(playerEloRatings, minGames = 2)
-
+    displaySortedElo(villainEloRatings, grouping = None)
     println("")
 
-    val historyVillains = Set(DrFacilier)
-    showEloHistory(playerEloRatings)(dennis, historyVillains)
+    Tournament14.generateNextGame(dennis, alec)
 
-    val historyVillains2 = Set(PrinceJohn, Maleficent, KingCandy)
-    showEloHistory(playerEloRatings)(alec, historyVillains2)
+    Tournament14.showScores(alec, dennis)
 
-    println("")
 
-//    println(s"Total Games: ${nonSoloGames.length}")
-//    val alecFirst = numGamesGoingFirst(alec, nonSoloGames)
-//    val dennisFirst = numGamesGoingFirst(dennis, nonSoloGames)
-//    println(s"alec: $alecFirst   dennis: $dennisFirst")
-
+//    val historyVillains = Set(DrFacilier)
+//    showEloHistory(playerEloRatings)(dennis, historyVillains)
+//
+//    val historyVillains2 = Set(ShereKhan)
+//    showEloHistory(playerEloRatings)(alec, historyVillains2)
+//
 //    println(proposeMultiDuelGame(Set(alec, dennis), 2).get)
+//
+//    println("Pairings:")
+//    val pairings = games.map(g => Set(g.winner, g.loser)).distinct
+//    Villain.values.foreach(v => println(s"$v - ${pairings.count(_.contains(v))}"))
+//    println("")
 
-    Tournament9.generateNextGame(alec, dennis)
 
+
+//    multiplayerGames.foreach(g => println(g))
+//    games.filter(g => g.winnerPlayer == michael || g.loserPlayer == michael).foreach(g => println(g))
+
+//    println(s"All Time Scores:\n  Alec: ${allTimeScore(games, alec)}\n  Dennis: ${allTimeScore(games, dennis)}")
+    println("")
     println("")
     println("")
   }

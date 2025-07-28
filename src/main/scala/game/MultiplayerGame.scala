@@ -2,14 +2,25 @@ package game
 
 import io.circe.Decoder.Result
 import io.circe.{Decoder, HCursor}
-import model.{Player, Villain}
+import model.{Player, PlayerVillain, Villain}
 import util.Datetime.epochOf
 
-case class MultiplayerGame(winner: Villain,
+case class MultiplayerGame(winnerVillain: Villain,
                            winnerPlayer: Player,
                            losers: Map[Player, Villain],
                            playerOrder: List[Player],
-                           date: Long)
+                           date: Long) extends Game[PlayerVillain, Set[PlayerVillain]] {
+
+  override def winner: PlayerVillain = PlayerVillain(winnerPlayer, winnerVillain)
+
+  override def loser: Set[PlayerVillain] = losers.map { kv =>
+    val (k, v) = kv
+    PlayerVillain(k, v)
+  }.toSet
+
+  def isLegal: Boolean = (losers.values ++ Seq(winner.villain)).forall(_.playedCorrectSince < date)
+
+}
 
 object MultiplayerGame {
 

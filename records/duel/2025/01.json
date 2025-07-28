@@ -1,0 +1,58 @@
+[
+    {
+        "date": "01/04/2025",
+        "winner": "Captain Hook",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "01/04/2025",
+        "winner": "Captain Hook",
+        "loser": "Ratigan",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "01/04/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "01/09/2025",
+        "winner": "Dr Facilier",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "01/09/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "01/09/2025",
+        "winner": "Ursula",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "01/19/2025",
+        "winner": "Maleficent",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    }
+]

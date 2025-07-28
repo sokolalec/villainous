@@ -1,6 +1,7 @@
 package tournaments
-import game.{MatchUp, PlayableDuel}
-import model.Expansion.ownedExpansions
+import game.MatchUp
+import io.PlayableDuel
+import model.Expansion._
 import model.{Player, Villain}
 import stats.PlayerRecord
 import util.GameOps.getFirstPlayer
@@ -12,7 +13,14 @@ object Tournament6 extends Tournament {
 
   override val finished: Boolean = players().map(winCount).max >= 25
 
-  override val availableVillains: Set[Villain] = ownedExpansions.flatMap(_.villains)
+  override val availableVillains: Set[Villain] = Set(Original,
+    WickedToTheCore,
+    EvilComesPrepared,
+    PerfectlyWretched,
+    DespicablePlots,
+    BiggerAndBadder,
+    FilledwithFright,
+    SugarandSpite).flatMap(_.villains)
 
   private def winCount(player: Player): Int = games().count(_.winnerPlayer == player)
 

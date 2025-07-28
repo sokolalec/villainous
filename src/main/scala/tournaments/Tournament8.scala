@@ -1,7 +1,8 @@
 package tournaments
 
-import game.{DuelGame, MatchUp, PlayableDuel}
-import model.Expansion.ownedExpansions
+import game.{DuelGame, MatchUp}
+import io.PlayableDuel
+import model.Expansion._
 import model.Player.{alec, dennis}
 import model.Villain._
 import model.{Player, Villain}
@@ -13,13 +14,22 @@ object Tournament8 extends Tournament {
 
   override val version: String = "008"
 
+  override val availableVillains: Set[Villain] = Set(Original,
+    WickedToTheCore,
+    EvilComesPrepared,
+    PerfectlyWretched,
+    DespicablePlots,
+    BiggerAndBadder,
+    FilledwithFright,
+    SugarandSpite).flatMap(_.villains)
+
   private val alecUpperVillains: Set[Villain] = Set(MadamMim, Maleficent, ShereKhan, LadyTremaine, KingCandy, EvilQueen, Scar, PrinceJohn)
   private val alecMiddleVillains: Set[Villain] = Set(CaptainHook, Ratigan, CruelladeVil, HornedKing, DrFacilier, Pete, MotherGothel, Syndrome)
-  private val alecLowerVillains: Set[Villain] = ownedExpansions.flatMap(_.villains) -- alecUpperVillains -- alecMiddleVillains
+  private val alecLowerVillains: Set[Villain] = availableVillains -- alecUpperVillains -- alecMiddleVillains
 
   private val dennisUpperVillains: Set[Villain] = Set(DrFacilier, Maleficent, MadamMim, Ratigan, Lotso, Ursula, Yzma, HornedKing)
   private val dennisMiddleVillains: Set[Villain] = Set(LadyTremaine, Gaston, Jafar, PrinceJohn, ShereKhan, Hades, EvilQueen, OogieBoogie)
-  private val dennisLowerVillains: Set[Villain] = ownedExpansions.flatMap(_.villains) -- dennisUpperVillains -- dennisMiddleVillains
+  private val dennisLowerVillains: Set[Villain] = availableVillains -- dennisUpperVillains -- dennisMiddleVillains
 
   private val upperBracket = Bracket(games(), Map(alec -> alecUpperVillains, dennis -> dennisUpperVillains))
   private val middleBracket = Bracket(games(), Map(alec -> alecMiddleVillains, dennis -> dennisMiddleVillains))
@@ -31,8 +41,6 @@ object Tournament8 extends Tournament {
     val wins = players().map(winCount)
     wins.nonEmpty && wins.max >= 2
   }
-
-  override val availableVillains: Set[Villain] = Set.empty
 
   private def winCount(player: Player): Int = brackets.count(_.winner.contains(player))
 

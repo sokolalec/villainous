@@ -1,0 +1,16 @@
+[
+    {
+        "date": "06/21/2025",
+        "winner": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Jafar",
+            "Joe": "Ursula"
+        },
+        "playerOrder": [
+            "Alec",
+            "Dennis",
+            "Joe"
+        ]
+    }
+]

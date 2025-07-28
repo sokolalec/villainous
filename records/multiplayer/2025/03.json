@@ -1,0 +1,16 @@
+[
+    {
+        "date": "03/05/2025",
+        "winner": "Horned King",
+        "winnerPlayer": "Michael",
+        "losers": {
+            "Alec": "Hades",
+            "Dennis": "Gaston"
+        },
+        "playerOrder": [
+            "Alec",
+            "Michael",
+            "Dennis"
+        ]
+    }
+]

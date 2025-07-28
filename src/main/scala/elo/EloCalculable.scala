@@ -1,11 +1,11 @@
 package elo
 
-import game.DuelGame
+trait EloCalculable[G, T] {
 
-trait EloCalculable[T] {
+  def defaultElo(t: T): Elo[T] = Elo(1000.0, List.empty)
 
-  def eloWinner(game: DuelGame): T
+  def eloWinner(game: G): T
 
-  def eloLoser(game: DuelGame): T
+  def eloLoser(game: G): T
 
 }

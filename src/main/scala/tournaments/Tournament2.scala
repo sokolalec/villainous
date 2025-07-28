@@ -1,5 +1,6 @@
 package tournaments
-import game.PlayableDuel
+
+import io.PlayableDuel
 import model.Expansion._
 import model.Villain._
 import model.{Player, Villain}

@@ -1,13 +1,13 @@
 package tournaments
-import game.PlayableDuel
-import model.Expansion.ownedExpansions
+
+import io.PlayableDuel
 import model.Player.{alec, dennis}
 import model.Villain.{DrFacilier, ShereKhan}
 import model.{Player, Villain}
 
 object Tournament9 extends Tournament {
   override val version: String = "009"
-  override val availableVillains: Set[Villain] = ownedExpansions.flatMap(_.villains)
+  override val availableVillains: Set[Villain] = Tournament6.availableVillains
 
   val villains: Map[Player, Villain] = Map(alec -> ShereKhan, dennis -> DrFacilier)
 

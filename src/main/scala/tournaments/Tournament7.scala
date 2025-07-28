@@ -1,6 +1,7 @@
 package tournaments
 
-import game.{MatchUp, PlayableDuel}
+import game.MatchUp
+import io.PlayableDuel
 import model.Player.{alec, dennis}
 import model.Villain._
 import model.{Player, Villain}

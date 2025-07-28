@@ -1,0 +1,1922 @@
+[
+    {
+        "date": "02/24/2025",
+        "winner": "Ratigan",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "02/24/2025",
+        "winner": "Ursula",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "02/26/2025",
+        "winner": "Prince John",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "02/26/2025",
+        "winner": "Captain Hook",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "03/02/2025",
+        "winner": "Gaston",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/02/2025",
+        "winner": "Captain Hook",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Prince John",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Shere Khan",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Evil Queen",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Dr Facilier",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Evil Queen",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Gaston",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Madam Mim",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Ratigan",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Horned King",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/07/2025",
+        "winner": "Gaston",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/10/2025",
+        "winner": "Pete",
+        "loser": "King Candy",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "03/16/2025",
+        "winner": "Syndrome",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "03/16/2025",
+        "winner": "Mother Gothel",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/17/2025",
+        "winner": "Syndrome",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "03/17/2025",
+        "winner": "Shere Khan",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Madam Mim",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Syndrome",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Ursula",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Jafar",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "King Candy",
+        "loser": "Gaston",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Shere Khan",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "03/23/2025",
+        "winner": "Shere Khan",
+        "loser": "Gaston",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/06/2025",
+        "winner": "King Candy",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/06/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "04/06/2025",
+        "winner": "Prince John",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/06/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "04/06/2025",
+        "winner": "Shere Khan",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Maleficent",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Dr Facilier",
+        "loser": "Gaston",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Maleficent",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Shere Khan",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "04/12/2025",
+        "winner": "Ratigan",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/13/2025",
+        "winner": "Gaston",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/13/2025",
+        "winner": "Lotso",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Hades",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Ursula",
+        "loser": "Maleficent",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Syndrome",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Horned King",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Captain Hook",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Captain Hook",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Syndrome",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Jafar",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Maleficent",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "04/19/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/20/2025",
+        "winner": "King Candy",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "04/20/2025",
+        "winner": "Syndrome",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/20/2025",
+        "winner": "Yzma",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/23/2025",
+        "winner": "Horned King",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "04/23/2025",
+        "winner": "Evil Queen",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/23/2025",
+        "winner": "Horned King",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "04/23/2025",
+        "winner": "King Candy",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/23/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Lotso",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Maleficent",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Maleficent",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Lotso",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Captain Hook",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Horned King",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Dr Facilier",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Evil Queen",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Yzma",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Evil Queen",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "04/26/2025",
+        "winner": "Prince John",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "04/27/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "04/28/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "04/28/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/01/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Maleficent",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/01/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "05/01/2025",
+        "winner": "Ursula",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "05/01/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/01/2025",
+        "winner": "Evil Queen",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/03/2025",
+        "winner": "Horned King",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/03/2025",
+        "winner": "Syndrome",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "05/04/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/04/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/04/2025",
+        "winner": "Lotso",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "05/04/2025",
+        "winner": "Evil Queen",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "05/04/2025",
+        "winner": "Ratigan",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/07/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/07/2025",
+        "winner": "Dr Facilier",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "05/07/2025",
+        "winner": "Horned King",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/08/2025",
+        "winner": "Ratigan",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "05/08/2025",
+        "winner": "Jafar",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Jafar",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Ursula",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Scar",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Syndrome",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "05/09/2025",
+        "winner": "Horned King",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/11/2025",
+        "winner": "Ratigan",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "05/11/2025",
+        "winner": "Ratigan",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/11/2025",
+        "winner": "Evil Queen",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "05/14/2025",
+        "winner": "Prince John",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "05/14/2025",
+        "winner": "Horned King",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/14/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/15/2025",
+        "winner": "King Candy",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/15/2025",
+        "winner": "Captain Hook",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Captain Hook"
+    },
+    {
+        "date": "05/15/2025",
+        "winner": "Jafar",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/15/2025",
+        "winner": "Gaston",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "05/15/2025",
+        "winner": "Mother Gothel",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/16/2025",
+        "winner": "Evil Queen",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "05/17/2025",
+        "winner": "King Candy",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "05/17/2025",
+        "winner": "Jafar",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Evil Queen",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "King Candy",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Prince John",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Shere Khan",
+        "loser": "Hades",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Jafar",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Captain Hook",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/18/2025",
+        "winner": "Yzma",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "05/19/2025",
+        "winner": "Hades",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/19/2025",
+        "winner": "Ratigan",
+        "loser": "Lotso",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ratigan"
+    },
+    {
+        "date": "05/19/2025",
+        "winner": "Yzma",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Prince John",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Dr Facilier",
+        "loser": "King Candy",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Mother Gothel",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Ursula",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Lotso",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Evil Queen",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/24/2025",
+        "winner": "Lotso",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Prince John",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Maleficent",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Dr Facilier",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Madam Mim",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "05/25/2025",
+        "winner": "Prince John",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Gaston",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Lotso",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Mother Gothel",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Dr Facilier",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Horned King",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Dr Facilier",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "05/26/2025",
+        "winner": "Yzma",
+        "loser": "Lotso",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "05/30/2025",
+        "winner": "Madam Mim",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/30/2025",
+        "winner": "Maleficent",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "05/30/2025",
+        "winner": "Madam Mim",
+        "loser": "King Candy",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "05/30/2025",
+        "winner": "Lotso",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/30/2025",
+        "winner": "Mother Gothel",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Evil Queen",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Shere Khan",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Captain Hook",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Dr Facilier",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Syndrome",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Captain Hook",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Syndrome",
+        "loser": "Gaston",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Horned King",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Shere Khan",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "05/31/2025",
+        "winner": "Lotso",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Ursula",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Evil Queen",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Maleficent",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Jafar",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Yzma",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Horned King",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "06/01/2025",
+        "winner": "Yzma",
+        "loser": "Prince John",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Ursula",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Ratigan",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Evil Queen",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Scar",
+        "loser": "Shere Khan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Maleficent",
+        "loser": "Lotso",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Pete",
+        "loser": "Ratigan",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "06/06/2025",
+        "winner": "Ratigan",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "06/08/2025",
+        "winner": "Maleficent",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Jafar",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Ursula",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Dr Facilier",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Madam Mim",
+        "loser": "Dr Facilier",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Dr Facilier"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Maleficent",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Syndrome",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Ursula",
+        "loser": "Syndrome",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "06/14/2025",
+        "winner": "Evil Queen",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "King Candy",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "Shere Khan",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "Jafar",
+        "loser": "Lotso",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "Hades",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "Maleficent",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "King Candy",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "06/15/2025",
+        "winner": "King Candy",
+        "loser": "Ratigan",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "Yzma",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Yzma"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "Ratigan",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "Ratigan",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "King Candy",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "06/20/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Scar",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Ratigan",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Lotso",
+        "loser": "Gaston",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "06/21/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Queen of Hearts",
+        "loser": "Yzma",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Lotso",
+        "loser": "Scar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Oogie Boogie",
+        "loser": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Cruella de Vil",
+        "loser": "Yzma",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Yzma",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "Shere Khan",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/12/2025",
+        "winner": "King Candy",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "07/13/2025",
+        "winner": "Evil Queen",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/14/2025",
+        "winner": "Captain Hook",
+        "loser": "King Candy",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "King Candy"
+    },
+    {
+        "date": "07/14/2025",
+        "winner": "Madam Mim",
+        "loser": "Gaston",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Gaston"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Ratigan",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Lotso",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Ursula",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Madam Mim",
+        "loser": "Jafar",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Jafar"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Ursula",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Queen of Hearts"
+    },
+    {
+        "date": "07/15/2025",
+        "winner": "Jafar",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "07/19/2025",
+        "winner": "Lotso",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "07/19/2025",
+        "winner": "Lotso",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/19/2025",
+        "winner": "Madam Mim",
+        "loser": "Mother Gothel",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Mother Gothel"
+    },
+    {
+        "date": "07/19/2025",
+        "winner": "Captain Hook",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Lady Tremaine",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Lady Tremaine"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Captain Hook",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Captain Hook",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Captain Hook",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Ursula",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "07/20/2025",
+        "winner": "Hades",
+        "loser": "Ursula",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Horned King",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Horned King"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Pete",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Scar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Scar"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Hades",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Madam Mim",
+        "loser": "Queen of Hearts",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Queen of Hearts"
+    }
+]
