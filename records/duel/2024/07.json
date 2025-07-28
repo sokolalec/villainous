@@ -1,0 +1,91 @@
+[
+    {
+        "date": "07/06/2024",
+        "winner": "Evil Queen",
+        "loser": "Hades",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/06/2024",
+        "winner": "Hades",
+        "loser": "Evil Queen",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/06/2024",
+        "winner": "Pete",
+        "loser": "Horned King",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete",
+        "comments": "I told him to not summon the pig :("
+    },
+    {
+        "date": "07/06/2024",
+        "winner": "Pete",
+        "loser": "Cruella de Vil",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Cruella de Vil"
+    },
+    {
+        "date": "07/11/2024",
+        "winner": "Syndrome",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "07/11/2024",
+        "winner": "Syndrome",
+        "loser": "Madam Mim",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "07/13/2024",
+        "winner": "Evil Queen",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Evil Queen"
+    },
+    {
+        "date": "07/13/2024",
+        "winner": "Evil Queen",
+        "loser": "Hades",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Hades"
+    },
+    {
+        "date": "07/14/2024",
+        "winner": "Madam Mim",
+        "loser": "Syndrome",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Syndrome"
+    },
+    {
+        "date": "07/14/2024",
+        "winner": "Dr Facilier",
+        "loser": "Pete",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "07/31/2024",
+        "winner": "Horned King",
+        "loser": "Prince John",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Michael",
+        "firstPlayer": "Horned King"
+    }
+]

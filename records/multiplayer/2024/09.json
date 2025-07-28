@@ -1,0 +1,30 @@
+[
+    {
+        "date": "09/11/2024",
+        "winner": "Captain Hook",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Scar",
+            "Michael": "Dr Facilier"
+        },
+        "playerOrder": [
+            "Michael",
+            "Alec",
+            "Dennis"
+        ]
+    },
+    {
+        "date": "09/18/2024",
+        "winner": "Lotso",
+        "winnerPlayer": "Dennis",
+        "losers": {
+            "Alec": "Jafar",
+            "Michael": "Dr Facilier"
+        },
+        "playerOrder": [
+            "Michael",
+            "Alec",
+            "Dennis"
+        ]
+    }
+]

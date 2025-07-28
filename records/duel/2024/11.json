@@ -1,0 +1,26 @@
+[
+    {
+        "date": "11/11/2024",
+        "winner": "Shere Khan",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "11/11/2024",
+        "winner": "Shere Khan",
+        "loser": "Lady Tremaine",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Shere Khan"
+    },
+    {
+        "date": "11/18/2024",
+        "winner": "Shere Khan",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Oogie Boogie"
+    }
+]

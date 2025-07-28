@@ -39,6 +39,10 @@ object Expansion {
     val villains: Set[Villain] = Set(KingCandy, ShereKhan)
   }
 
+  object TreacherousTides extends Expansion {
+    val villains: Set[Villain] = Set(Tamatoa, DavyJones)
+  }
+
   val ownedExpansions: Set[Expansion] =
     Set(
       Original,
@@ -48,7 +52,8 @@ object Expansion {
       DespicablePlots,
       BiggerAndBadder,
       FilledwithFright,
-      SugarandSpite
+      SugarandSpite,
+      TreacherousTides
     )
 
 }

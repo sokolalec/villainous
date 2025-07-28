@@ -1,0 +1,18 @@
+[
+    {
+        "date": "07/25/2025",
+        "winner": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "losers": {
+            "Dennis": "Evil Queen",
+            "Joe": "Ursula",
+            "Stephanie": "Maleficent"
+        },
+        "playerOrder": [
+            "Alec",
+            "Dennis",
+            "Joe",
+            "Stephanie"
+        ]
+    }
+]

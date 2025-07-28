@@ -1,0 +1,34 @@
+[
+    {
+        "date": "07/26/2025",
+        "winner": "Tamatoa",
+        "loser": "Davy Jones",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Tamatoa"
+    },
+    {
+        "date": "07/26/2025",
+        "winner": "Davy Jones",
+        "loser": "Tamatoa",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Davy Jones"
+    },
+    {
+        "date": "07/27/2025",
+        "winner": "Davy Jones",
+        "loser": "Tamatoa",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Tamatoa"
+    },
+    {
+        "date": "07/27/2025",
+        "winner": "Tamatoa",
+        "loser": "Davy Jones",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Tamatoa"
+    }
+]

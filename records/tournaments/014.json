@@ -1,0 +1,26 @@
+[
+    {
+        "date": "07/27/2025",
+        "winner": "Pete",
+        "loser": "Tamatoa",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Pete"
+    },
+    {
+        "date": "07/27/2025",
+        "winner": "Madam Mim",
+        "loser": "Maleficent",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Maleficent"
+    },
+    {
+        "date": "07/27/2025",
+        "winner": "Captain Hook",
+        "loser": "Oogie Boogie",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Oogie Boogie"
+    }
+]

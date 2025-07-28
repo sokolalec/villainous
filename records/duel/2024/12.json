@@ -1,0 +1,18 @@
+[
+    {
+        "date": "12/19/2024",
+        "winner": "Prince John",
+        "loser": "Ursula",
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "firstPlayer": "Ursula"
+    },
+    {
+        "date": "12/19/2024",
+        "winner": "Ursula",
+        "loser": "Jafar",
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "firstPlayer": "Ursula"
+    }
+]

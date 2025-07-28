@@ -1,0 +1,116 @@
+[
+    {
+        "date": "11/09/2024",
+        "winner": "Yzma",
+        "winnerTeam": [
+            "Madam Mim"
+        ],
+        "loserTeam": [
+            "Lotso",
+            "Dr Facilier"
+        ],
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "villainOrder": [
+            "Dr Facilier",
+            "Yzma",
+            "Lotso",
+            "Madam Mim"
+        ]
+    },
+    {
+        "date": "11/09/2024",
+        "winner": "Jafar",
+        "winnerTeam": [
+            "Prince John"
+        ],
+        "loserTeam": [
+            "Ratigan",
+            "Evil Queen"
+        ],
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "villainOrder": [
+            "Ratigan",
+            "Jafar",
+            "Evil Queen",
+            "Prince John"
+        ]
+    },
+    {
+        "date": "11/09/2024",
+        "winner": "Madam Mim",
+        "winnerTeam": [
+            "Cruella de Vil"
+        ],
+        "loserTeam": [
+            "Mother Gothel",
+            "Evil Queen"
+        ],
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "villainOrder": [
+            "Mother Gothel",
+            "Madam Mim",
+            "Evil Queen",
+            "Cruella de Vil"
+        ]
+    },
+    {
+        "date": "11/11/2024",
+        "winner": "Lady Tremaine",
+        "winnerTeam": [
+            "Mother Gothel"
+        ],
+        "loserTeam": [
+            "Pete",
+            "Prince John"
+        ],
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "villainOrder": [
+            "Lady Tremaine",
+            "Pete",
+            "Mother Gothel",
+            "Prince John"
+        ]
+    },
+    {
+        "date": "11/11/2024",
+        "winner": "Dr Facilier",
+        "winnerTeam": [
+            "Yzma"
+        ],
+        "loserTeam": [
+            "King Candy",
+            "Maleficent"
+        ],
+        "winnerPlayer": "Dennis",
+        "loserPlayer": "Alec",
+        "villainOrder": [
+            "Maleficent",
+            "Yzma",
+            "King Candy",
+            "Dr Facilier"
+        ]
+    },
+    {
+        "date": "11/11/2024",
+        "winner": "Prince John",
+        "winnerTeam": [
+            "Dr Facilier"
+        ],
+        "loserTeam": [
+            "Captain Hook",
+            "Ratigan"
+        ],
+        "winnerPlayer": "Alec",
+        "loserPlayer": "Dennis",
+        "villainOrder": [
+            "Captain Hook",
+            "Dr Facilier",
+            "Ratigan",
+            "Prince John"
+        ]
+    }
+]

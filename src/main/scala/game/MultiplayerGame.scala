@@ -1,28 +1,43 @@
-package model.game
+package game
 
 import io.circe.Decoder.Result
 import io.circe.{Decoder, HCursor}
-import model.{Player, Villain}
+import model.{Player, PlayerVillain, Villain}
+import util.Datetime.epochOf
 
-case class MultiplayerGame(winner: Villain,
+case class MultiplayerGame(winnerVillain: Villain,
                            winnerPlayer: Player,
                            losers: Map[Player, Villain],
                            playerOrder: List[Player],
-                           date: Long)
+                           date: Long) extends Game[PlayerVillain, Set[PlayerVillain]] {
+
+  override def winner: PlayerVillain = PlayerVillain(winnerPlayer, winnerVillain)
+
+  override def loser: Set[PlayerVillain] = losers.map { kv =>
+    val (k, v) = kv
+    PlayerVillain(k, v)
+  }.toSet
+
+  def isLegal: Boolean = (losers.values ++ Seq(winner.villain)).forall(_.playedCorrectSince < date)
+
+}
 
 object MultiplayerGame {
+
+  implicit val multiplayerGameOrdering: Ordering[MultiplayerGame] = Ordering.by(_.date)
 
   implicit val losersDecoder: Decoder[Map[Player, Villain]] = Decoder.decodeMap[String, String].map { stringMap =>
     stringMap.map { case (playerName, villainName) => Player(playerName) -> Villain.withName(villainName) }
   }
 
-  implicit val multiplayerGameDecoder: Long => Decoder[MultiplayerGame] = (epoch: Long) => new Decoder[MultiplayerGame] {
+  implicit val multiplayerGameDecoder: Decoder[MultiplayerGame] = new Decoder[MultiplayerGame] {
     final def apply(c: HCursor): Result[MultiplayerGame] = for {
+      date <- c.downField("date").as[String]
       winner <- c.downField("winner").as[Villain]
       winnerPlayer <- c.downField("winnerPlayer").as[Player]
       losers <- c.downField("losers").as[Map[Player, Villain]]
       playerOrder <- c.downField("playerOrder").as[List[Player]]
-    } yield MultiplayerGame(winner, winnerPlayer, losers, playerOrder, epoch)
+    } yield MultiplayerGame(winner, winnerPlayer, losers, playerOrder, epochOf(date))
   }
 
 }

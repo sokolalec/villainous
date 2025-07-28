@@ -1,8 +1,7 @@
-[
-    {
-        "winner": "",
-        "loser": "",
-        "player": "",
-        "firstPlayer": ""
-    }
-]
+{
+    "date": "06/05/2024",
+    "winner": "",
+    "loser": "",
+    "player": "",
+    "firstPlayer": ""
+}
