@@ -7,7 +7,7 @@ import model.Player.{alec, dennis}
 import model.Villain._
 import model.{Player, Villain}
 import util.GameOps.getFirstPlayer
-import util.MatchUps.getMatch
+import util.MatchUps.{getMatch, getRandomT}
 import util.RNG.getRandom
 
 object Tournament8 extends Tournament {
@@ -44,21 +44,12 @@ object Tournament8 extends Tournament {
 
   private def winCount(player: Player): Int = brackets.count(_.winner.contains(player))
 
-  private def getRandomActiveBracket(brackets: Set[Bracket]): Option[Bracket] = {
-    brackets.filterNot(_.finished) match {
-      case activeBrackets if activeBrackets.nonEmpty =>
-        val r = getRandom().nextInt(activeBrackets.size)
-        Some(activeBrackets.toVector(r))
-      case _ => None
-    }
-  }
-
   override def generateNextGame(player1: Player, player2: Player): Option[PlayableDuel] = {
     if (finished) {
       congratulate()
       None
     } else {
-      getRandomActiveBracket(brackets) match {
+      getRandomT(brackets.filterNot(_.finished)) match {
         case Some(bracket) =>
           val player1Villains = bracket.getVillainsRemaining(player1)
           val player2Villains = bracket.getVillainsRemaining(player2)

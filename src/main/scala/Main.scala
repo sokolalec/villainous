@@ -4,6 +4,7 @@ import io.Filesystem.{allGames, legalGames}
 import model.Player._
 import model.{Player, PlayerVillain, Villain}
 import stats.EloOps.{calculateElo, displaySortedElo}
+import stats.Stats
 import stats.Stats.{generateRecords, getPlayerStats, showRecords, showWinRates}
 import tournaments._
 
@@ -40,14 +41,6 @@ object Main {
       playerEloRatings(pv).showEloHistory()
       println("")
     }
-  }
-
-  def allTimeScore(games: Seq[DuelGame], player: Player): Int = {
-    games.filter(g => g.winnerPlayer == player).map(g => {
-      val b1 = Tournament13.brackets.indexWhere(_.contains(g.winner))
-      val b2 = Tournament13.brackets.indexWhere(_.contains(g.loser))
-      if (b1 < b2) 1 else Math.abs(b1 - b2) + 1
-    }).sum
   }
 
   def displayEloDifference(elo: Map[PlayerVillain, Elo[PlayerVillain]], minGames: Int = 0): Unit = {
@@ -98,6 +91,13 @@ object Main {
     Tournament14.generateNextGame(dennis, alec)
 
     Tournament14.showScores(alec, dennis)
+
+    println("")
+    println("")
+    println("")
+
+
+//    Stats.showWinRates(games, Tournament14.brackets)
 
 
 //    val historyVillains = Set(DrFacilier)

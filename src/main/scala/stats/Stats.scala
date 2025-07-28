@@ -64,8 +64,9 @@ object Stats {
   }
 
   // Colors text based on percent from 0 (red) -> 50 (yellow) -> 100 (green)
-  def colorizePercent(pct: Int, text: String): String = {
-    val clampedPct = math.max(0, math.min(100, pct))
+  def colorizePercent(pct: Long): String = {
+    val text = pct.toInt.toString + "%"
+    val clampedPct = math.max(0, math.min(100, pct.toInt))
 
     val (r, g, b) = if (clampedPct <= 50) {
       val green = (clampedPct * 255) / 50
@@ -96,10 +97,10 @@ object Stats {
         val totalWins = lowerWins + upperWins + sameWins
         val totalLosses = lowerLosses + upperLosses + sameLosses
         val totalPercent = math.round(totalWins.toDouble / (totalWins + totalLosses) * 100).toInt
-        println(s"  $v Overall: ${colorizePercent(totalPercent, totalPercent.toString + "%")}  ($totalWins, $totalLosses)")
-        if (lowerWins + lowerLosses > 0) println(s"    vs Lower Brackets: ${math.round(lowerWins.toDouble / (lowerWins + lowerLosses) * 100)}%  ($lowerWins, $lowerLosses)")
-        if (sameWins + sameLosses > 0) println(s"    vs Same Bracket:   ${math.round(sameWins.toDouble / (sameWins + sameLosses) * 100)}%  ($sameWins, $sameLosses)")
-        if (upperWins + upperLosses > 0) println(s"    vs Upper Brackets: ${math.round(upperWins.toDouble / (upperWins + upperLosses) * 100)}%  ($upperWins, $upperLosses)")
+        println(s"  $v Overall: ${colorizePercent(totalPercent)}  ($totalWins, $totalLosses)")
+        if (lowerWins + lowerLosses > 0) println(s"    vs Lower Brackets: ${colorizePercent(math.round(lowerWins.toDouble / (lowerWins + lowerLosses) * 100))}%  ($lowerWins, $lowerLosses)")
+        if (sameWins + sameLosses > 0) println(s"    vs Same Bracket:   ${colorizePercent(math.round(sameWins.toDouble / (sameWins + sameLosses) * 100))}%  ($sameWins, $sameLosses)")
+        if (upperWins + upperLosses > 0) println(s"    vs Upper Brackets: ${colorizePercent(math.round(upperWins.toDouble / (upperWins + upperLosses) * 100))}%  ($upperWins, $upperLosses)")
         println("")
       })
     })
